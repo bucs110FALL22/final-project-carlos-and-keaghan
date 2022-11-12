@@ -1,8 +1,8 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# The Maze
 ## CS 110 Final Project
-### << Semester, Year >>
+### Fall, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
 << [repl](#) >>
@@ -10,13 +10,13 @@
 << [link to demo presentation slides](#) >>
 
 ### Team: << team name >>
-#### << Team Members >>
+#### Carlos Figueroa and Keaghan Johnson
 
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+The project will be a timed maze game in which players will compete to get the quickest completion time 
 
 ***    
 
@@ -43,6 +43,15 @@
         * ![class diagram](assets/class_diagram.jpg) 
 * Classes
     * << You should have a list of each of your classes with a description. >>
+*Class Player*
+-health(int) - The amount of lives the player has to play
+-speed(int) - This is the speed the player will move throughout the game and it remains constant
+-image(str) - This is where the player will get its image, it imports the image from a seperate file
+-movement - This is in order to allow the player to move in four different directions
+*Class Timer*
+-This class will be used to record the time it takes for the player to complete the maze
+*Class maze_generator*
+ 
 
 ## Project Structure and File List
 
