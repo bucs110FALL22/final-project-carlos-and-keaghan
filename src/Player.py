@@ -1,22 +1,32 @@
+import pygame
+
+pygame.init()
+
+width = 800
+height = int(width * 0.8)
+screen = pygame.display.set_mode((width, height))
+
 class Player(pygame.sprite.Sprite):
-  def __init__(self):
-    super()__init__(self)
+  def __init__(self, x, y, speed):
+    pygame.sprite.Sprite.__init__(self)
     self.health = 1
     self.speed = 3
-    self.image = pygame.image.load()
+    self.image = pygame.image.load('assets/Mario test.webp')
     self.rect = self.image.get_rect()
+    self.rect.center = (x,y)
+    self.speed = speed
 
 
-  def move_up(self):
-    self.rect.y -= self.speed
-        
-  def move_down(self):
-    self.rect.y += self.speed
-        
-  def move_right(self):
-    self.rect.x += self.speed
-        
-  def move_left(self):
-    self.rect.x -= self.speed
+
     
-    
+avatar = Player(200,200,5)
+
+run = True
+while run:
+
+  for event in pygame.event.get():
+
+    if event.type == pygame.QUIT:
+      run = False
+
+pygame.quit()
