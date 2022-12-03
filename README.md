@@ -5,7 +5,8 @@
 ### Fall, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
-https://replit.com/join/velgnhqszm-toaztburnt
+**NEW REPL URL**
+https://replit.com/@ToaztBurnt/Carlos-and-Keaghan#main.py
 
 << [link to demo presentation slides](#) >>
 
